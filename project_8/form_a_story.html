@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resource/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Oleo+Script+Swash+Caps:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./resource/js/function.js"></script>
+    <title>FORM-A-STORY</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://content.codecademy.com/courses/learn-html-forms/formAStoryLogo.svg"
+        alt="head picture"
+      />
+    </header>
+    <br />
+    <main class="container">
+      <div class="section-1">
+        <h1>
+          Complete the Form -
+          <br />
+          Complete the Story!
+        </h1>
+      </div>
+      <hr />
+      <div class="section-2">
+        <form action="get">
+          <label for="animal-1">Animal:</label>
+          <input type="text" name="animal-1" id="animal-1" required />
+          <br />
+          <label for="animal-2">Another Animal:</label>
+          <input type="text" name="animal-2" id="animal-2" required />
+          <br />
+          <label for="animal-3">One More Animal:</label>
+          <input type="text" name="animal-3" id="animal-3" required />
+          <br />
+          <label for="animal-4">Adjective (Past Tense):</label>
+          <input type="text" name="animal-4" id="animal-4" required />
+          <br />
+          <label for="animal-5">Verb (Ends in -ing):</label>
+          <input type="text" name="animal-5" id="animal-5" required />
+          <br />
+          <label for="animal-6">Number:</label>
+          <input type="text" name="animal-6" id="animal-6" required />
+          <br />
+          <label for="animal-7">What Animal Do You Like:</label>
+          <input type="text" name="animal-7" id="animal-7" required />
+          <br />
+          <label for="animal-8">Tell Me More:</label>
+          <input type="text" name="animal-8" id="animal-8" required />
+          <br />
+          <label for="animal-9">Yes or No:</label>
+          <label for="yes">YES</label>
+          <input type="radio" name="yes" id="yes" />
+          <label for="no">NO</label>
+          <input type="radio" name="no" id="no" />
+          <br />
+          <label for="animal-10">
+            Motivational Quote:
+            <input
+              type="text"
+              name="quote"
+              id="quote"
+              required
+              list="quote-choices"
+            />
+            <datalist id="quote-choices">
+              <option value="Animals live in surface">
+                Animals live in surface
+              </option>
+              <option value="Animals live under water">
+                Animals live under water
+              </option>
+              <option value="Animals live on the sky">
+                Animals live on the sky
+              </option>
+            </datalist>
+          </label>
+          <br />
+          <input type="text" name="animal-10" id="animal-10" />
+          <br />
+          <textarea name="message" id="message" cols="50" rows="8"></textarea>
+          <br />
+          <input type="button" value="submit" name="Form My Story!" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

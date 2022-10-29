@@ -1,0 +1,35 @@
+* {
+    font-family: Helvetica;
+}
+
+header {
+    background-image: url(/testProject/project2/resource/img/pattern.jpeg);
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    position: horizontal;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+strong {
+    font-weight: bold;
+    color: blue;
+}
+
+.first {
+    background-color: mediumspringgreen;
+}
+
+.second {
+    background-color: lightcoral;
+}
+
+.third {
+    background-color: skyblue;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Oleo+Script+Swash+Caps:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,700&display=swap');
+
+* {
+  font-family: 'Island Moments', cursive;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+header {
+    text-align: center; 
+    background-color: aliceblue;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    background-color: aliceblue;
+    width: 30%;
+    margin: 0 auto;
+    color: darkcyan;
+}
+
+label input {
+   
+}
+

@@ -1,0 +1,30 @@
+a {
+  color: green;
+}
+
+a .nav-link {
+  color: aqua;
+  background-color: #f3f;
+}
+
+.btn {
+  font-family: "Raleway", sans-serif;
+}
+
+.btn:hover {
+  color: black;
+  background-color: aliceblue;
+  font-size: 20px;
+  border: 1px solid green;
+  border-radius: 8%;
+  font-weight: 450;
+}
+
+.btn:active {
+  color: green;
+  background-color: green;
+  border: 1px solid aliceblue;
+  border-radius: 8%;
+  font-size: 20px;
+  font-weight: 500;
+}
