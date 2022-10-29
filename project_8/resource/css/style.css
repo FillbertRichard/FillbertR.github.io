@@ -7,26 +7,24 @@
 }
 
 body {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 
 header {
-    text-align: center; 
-    background-color: aliceblue;
-    display: block;
-    width: 30%;
-    margin: 0 auto;
+  text-align: center;
+  background-color: aliceblue;
+  display: block;
+  width: 30%;
+  margin: 0 auto;
 }
 
 main {
-    text-align: center;
-    background-color: aliceblue;
-    width: 30%;
-    margin: 0 auto;
-    color: darkcyan;
+  text-align: center;
+  background-color: aliceblue;
+  width: 30%;
+  margin: 0 auto;
+  color: darkcyan;
 }
 
 label input {
-   
 }
-
