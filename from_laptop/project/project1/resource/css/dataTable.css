@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  font-family: "Merriweather", serif;
+}
+
+table {
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+thead {
+  font-weight: lighter;
+  font-size: medium;
+  text-align: center;
+  background-color: gray;
+  color: antiquewhite;
+  padding: 0%;
+  margin: 0;
+  border: 1px solid gray;
+}
+
+td {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  height: 45px;
+  background-color: aliceblue;
+  border-color: 1px solid aliceblue;
+}

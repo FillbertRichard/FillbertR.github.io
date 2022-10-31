@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resource/css/style.css" />
+    <title>Project 1</title>
+  </head>
+  <body>
+    <header>
+      <section class="nav-bar">
+        <div class="icon-name">
+          <h2 class="name-bar">SPN.</h2>
+        </div>
+        <div class="icon-btn">
+          <input type="button" name="menu-btn" id="menu-btn" value="menu" />
+          <input type="button" value="file" name="file-btn" id="file-btn" />
+          <input type="button" value="data" name="data-btn" id="data-btn" />
+          <input type="button" value="case" name="case-btn" id="case-btn" />
+          <input type="button" value="docx" name="docx-btn" id="docx-btn" />
+        </div>
+      </section>
+
+      <section class="inf-bar">
+        <div class="overview">
+          <h2>OVERVIEW</h2>
+        </div>
+        <div class="analytics">
+          <h2>ANALYTICS</h2>
+        </div>
+        <div class="system">
+          <h2>SYSTEM</h2>
+        </div>
+        <div class="monitoring">
+          <h2>MONITORING</h2>
+        </div>
+      </section>
+
+      <section class="sts-bar">
+        <div class="sts-bar battery">
+          <!--    put icon battery status -->
+          <div class="battery pw-battery">
+            <!--    percent battery     -->
+            <p class="pw-battery decription">Battery</p>
+          </div>
+        </div>
+
+        <div class="sts-bar wifi">
+          <!--    put icon connect status     -->
+          <div class="wifi pw-wifi">
+            <div class="pw-wifi connect-sts1">
+              <!--    status connect  -->
+            </div>
+            <p class="pw-wifi decription">Sever</p>
+          </div>
+        </div>
+
+        <div class="sts-bar bluetooth">
+          <!--    put icon connect status -->
+          <div class="bluetooth pw-bluetooth">
+            <div class="pw-bluetooth connect-sts2">
+              <!--    status connect  -->
+            </div>
+            <p class="pw-bluetooth decription">Bluetooth</p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <table id="main-page">
+        <tr>
+          <section class="table-data">
+          <td>
+              <table class="table-data daily">
+                <tr>
+                  <td>
+                    <p class="daily tag">Daily Revenue</p>
+                  </td>
+                  <td>
+                    <div class="daily date-table">
+                      <!--    put day, month, clock   -->
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="daily number1">
+                      <h1 class="daily number1">12.830</h1>
+                    </div>
+                  </td>
+                  <td rowspan="1">
+                    <div class="daily img1">
+                      <img src="" alt="daily-img1" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="daily sts1">
+                      <div class="icon-sts1">
+                        <!--    put icon    -->
+                      </div>
+                      <p class="sts1 days">Today</p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              </td>
+              <td>
+                <table class="table-data consumption">
+                <tr>
+                  <td colspan="1">
+                    <div class="inf-consumtion">
+                      <label for="icon-question">
+                        <p class="consumption tag">Consumption</p>
+                        <input type="button" value="icon-question" id="icon-question" name="icon-question">
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="consumption date-table">
+                      <!--    put day, month, clock   -->
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1>
+                      9.4260
+                      <sub>
+                        <small><em>kWh</em></small>
+                      </sub>
+                    </h1>
+                  </td>
+                  <td rowspan="1">
+                    <div class="consumption img2">
+                      <img src="" alt="consumption img2" />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="consumption sts2">
+                      <div class="sts2 icon-sts2">
+                        <!--  put icon status consumption -->
+                      </div>
+                      <p class="sts2 days">For last 7 days</p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              </td>
+              
+              <td>
+                  <table class="estimated">
+                <tr>
+                  <td>
+                    <p class="estimated tag">Estimated Savings</p>
+                  </td>
+                  <td>
+                    <div class="estimated date-table">
+                      <!--  put day, month, clock -->
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1 class="estimated num-money">
+                      320
+                      <sub>
+                        <small><em>$</em></small>
+                      </sub>
+                    </h1>
+                  </td>
+                  <td>
+                    <div class="estimated img3">
+                      <img src="" alt="estimated-img3">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="estimated sts3">
+                    <div class="sts3 icon">
+                      <!--  put icon status estimated -->
+                    </div>
+                    <p class="sts3 days">For last 30 days</p>
+                  </div>
+                  </td>
+                </tr>
+              </table>
+              </td>
+          </td>
+          </section>
+        </tr>
+        <tr>
+          <section class="table-data-list">
+            <td colspan="1">
+              <table class="table-data-list data-list">
+                <tr>
+                  <td rowspan="1">
+                    <div class="data-list name-tab">
+                      <label for="icon-question">
+                        <p class="name-tab tag">Solar Panel System</p>
+                        <input type="button" value="icon-question" name="icon-question" id="icon-question">
+                      </label>
+                      <br>
+                      <p class="name-tab days">Update 48 mins ago</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="choose-list">
+                      <input type="button" value="MONTH" name="month" id="month" class="choose-button">
+                      <input type="button" value="QUARTER" name="quarter" id="quarter" class="choose-button">
+                      <input type="button" value="YEAR" name="year" id="year" class="choose-button">
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </section>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

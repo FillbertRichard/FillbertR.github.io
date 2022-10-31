@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+    font-family: 'Merriweather', serif;
+}
+
+.tag {
+    font-weight: bold;
+}
+
+.days {
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.choose-list {
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+.choose-button {
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+}
