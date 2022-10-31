@@ -4,3 +4,22 @@
   font-size: 15px;
 }
 
+header {
+  display: flex;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.nav-bar .icon-name {
+  height: 150px;
+}
+
+.nav-bar .icon-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
