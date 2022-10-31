@@ -9,69 +9,71 @@
   </head>
   <body>
     <header>
-      <section class="nav-bar">
-        <div class="icon-name">
-          <h2 class="name-bar">SPN.</h2>
+      <div class="nav-bar">
+        <div class="nav-bar icon-name">
+          <h2 class="icon-name name-bar">SPN.</h2>
         </div>
-        <div class="icon-btn">
-          <input type="button" name="menu-btn" id="menu-btn" value="menu" />
+        <div class="nav-bar icon-btn">
+          <input type="button" value="menu" name="menu-btn" id="menu-btn" />
           <input type="button" value="file" name="file-btn" id="file-btn" />
           <input type="button" value="data" name="data-btn" id="data-btn" />
           <input type="button" value="case" name="case-btn" id="case-btn" />
           <input type="button" value="docx" name="docx-btn" id="docx-btn" />
         </div>
-      </section>
-
-      <section class="inf-bar">
-        <div class="overview">
-          <h2>OVERVIEW</h2>
-        </div>
-        <div class="analytics">
-          <h2>ANALYTICS</h2>
-        </div>
-        <div class="system">
-          <h2>SYSTEM</h2>
-        </div>
-        <div class="monitoring">
-          <h2>MONITORING</h2>
-        </div>
-      </section>
-
-      <section class="sts-bar">
-        <div class="sts-bar battery">
-          <!--    put icon battery status -->
-          <div class="battery pw-battery">
-            <!--    percent battery     -->
-            <p class="pw-battery decription">Battery</p>
-          </div>
-        </div>
-
-        <div class="sts-bar wifi">
-          <!--    put icon connect status     -->
-          <div class="wifi pw-wifi">
-            <div class="pw-wifi connect-sts1">
-              <!--    status connect  -->
+      </div>
+      <div class="container">
+        <div class="container inf-bar">
+            <div class="inf-bar overview">
+                <h2>OVERVIEW</h2>
             </div>
-            <p class="pw-wifi decription">Sever</p>
-          </div>
+            <div class="inf-bar analytics">
+                <h2>ANALYTICS</h2>
+            </div>
+            <div class="inf-bar system">
+                <h2>SYSTEM</h2>
+            </div>
+            <div class="inf-bar monitoring">
+                <h2>MONITORING</h2>
+            </div>
         </div>
 
-        <div class="sts-bar bluetooth">
-          <!--    put icon connect status -->
-          <div class="bluetooth pw-bluetooth">
-            <div class="pw-bluetooth connect-sts2">
-              <!--    status connect  -->
+        <div class="sts-bar">
+            <div class="sts-bar battery">
+                <!--    put icon battery status -->
+            <div class="battery pw-battery">
+                <!--    percent battery     -->
+                <p class="pw-battery decription">Battery</p>
             </div>
-            <p class="pw-bluetooth decription">Bluetooth</p>
-          </div>
         </div>
-      </section>
+
+            <div class="sts-bar wifi">
+                <!--    put icon connect status     -->
+                <div class="sts-bar wifi pw-wifi">
+                    <div class="sts-bar wifi pw-wifi connect-sts1">
+                        <!--    status connect  -->
+                    </div>
+                    <p class="sts-bar wifi pw-wifi decription">Sever</p>
+                </div>
+            </div>
+
+            <div class="sts-bar bluetooth">
+                <!--    put icon connect status -->
+                <div class="bluetooth pw-bluetooth">
+                    <div class="pw-bluetooth connect-sts2">
+                        <!--    status connect  -->
+                    </div>
+                    <p class="pw-bluetooth decription">Bluetooth</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      
     </header>
 
     <main>
       <table id="main-page">
         <tr>
-          <section class="table-data">
+          <section class="main-page table-data">
           <td>
               <table class="table-data daily">
                 <tr>
@@ -99,10 +101,10 @@
                 <tr>
                   <td>
                     <div class="daily sts1">
-                      <div class="icon-sts1">
+                        <div class="icon-sts1">
                         <!--    put icon    -->
-                      </div>
-                      <p class="sts1 days">Today</p>
+                        </div>
+                        <p class="sts1 days">Today</p>
                     </div>
                   </td>
                 </tr>
