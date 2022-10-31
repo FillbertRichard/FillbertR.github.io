@@ -4,26 +4,41 @@
 }
 
 table {
-  border: 1px solid gray;
-  border-radius: 20px;
-}
-
-thead {
-  font-weight: lighter;
-  font-size: medium;
-  text-align: center;
-  background-color: gray;
-  color: antiquewhite;
-  padding: 0%;
-  margin: 0;
-  border: 1px solid gray;
-}
-
-td {
-  padding: 0;
-  margin: 0;
-  width: 100px;
-  height: 45px;
   background-color: aliceblue;
-  border-color: 1px solid aliceblue;
+  text-align: center;
+  width: 45%;
+  border-collapse: collapse;
+}
+
+table thead {
+  text-align: left;
+}
+
+table tbody {
+  text-align: left;
+  border: none;
+}
+
+tr td {
+  font-size: 8px;
+  padding: 7px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.114);
+}
+
+#table {
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgba(128, 128, 128, 0.114);
+  border-color: rgba(128, 128, 128, 0.114);
+}
+
+.thead {
+  font-weight: bold;
+  background-color: rgba(203, 254, 247, 0.42);
+  color: rgba(128, 128, 128, 0.8);
+}
+
+.tbody {
+  font-weight: bold;
+  color: rgba(9, 0, 0, 0.8);
 }
