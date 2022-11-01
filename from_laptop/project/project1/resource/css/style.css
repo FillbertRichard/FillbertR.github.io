@@ -6,20 +6,33 @@
 
 header {
   display: flex;
+  flex-direction: row;
 }
 
 .nav-bar {
   display: flex;
-  align-items: stretch;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px;
+  padding: 2px;
 }
 
 .nav-bar .icon-name {
-  height: 150px;
+  color: rgb(1, 110, 1);
+  width: 40px;
+  height: 50px;
 }
 
 .nav-bar .icon-btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 64px;
+  height: 40px;
+}
+
+input + input {
+  height: 20px;
+}
+
+h2 {
+  font-weight: bold;
 }
