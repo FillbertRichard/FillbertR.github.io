@@ -37,7 +37,7 @@
 
     <main>
       <div class="color-up">
-        <div class="color-up first">
+        <div class="color-up first" id="leftside">
           <h1>Next generation<br />digital banking</h1>
           <p>
             Take your finicial life online. Your Easybank account will be a one
@@ -47,10 +47,14 @@
             Request Invite
           </button>
         </div>
-        <div class="color-up second">
-          <img src="./resource/img/internet.png" alt="web img" />
+        <div class="color-up second" id="rightside">
+          <img
+            src="./resource/img/internet.png"
+            alt="web img"
+            class="img-cover"
+          />
         </div>
-        <div class="question">
+        <div class="color-up question" id="color-down">
           <h1>Why choose Easybank?</h1>
           <br />
           <p>
@@ -59,10 +63,14 @@
           </p>
         </div>
       </div>
-      <div class="color-down">
-        <div class="flex-box">
-          <div class="flex-box 1">
-            <img src="./resource/img/atm.png" alt="online banking" />
+      <div class="color-down" id="color-down">
+        <div class="color-down flex-box">
+          <div class="flex-box bank">
+            <img
+              src="./resource/img/atm.png"
+              alt="online banking"
+              class="none"
+            />
             <br />
             <h2>
               <b>Online Banking</b>
@@ -73,8 +81,12 @@
               your financies wherever you are in the world.
             </p>
           </div>
-          <div class="flex-box 2">
-            <img src="./resource/img/smartphone.png" alt="simple budgeting" />
+          <div class="flex-box budget">
+            <img
+              src="./resource/img/smartphone.png"
+              alt="simple budgeting"
+              class="none"
+            />
             <br />
             <h2>
               <b>Simple Budgeting</b>
@@ -85,8 +97,12 @@
               when you're close to hitting your limits.
             </p>
           </div>
-          <div class="flex-box 3">
-            <img src="./resource/img/partners.png" alt="fast onbroading" />
+          <div class="flex-box onbroad">
+            <img
+              src="./resource/img/partners.png"
+              alt="fast onbroading"
+              class="none"
+            />
             <br />
             <h2>
               <b>Fast Onbroading</b>
@@ -97,8 +113,8 @@
               taking control of your financies right away.
             </p>
           </div>
-          <div class="flex-box 4">
-            <img src="./resource/img/money.png" alt="open api" />
+          <div class="flex-box api">
+            <img src="./resource/img/money.png" alt="open api" class="none" />
             <br />
             <h2>
               <b>Open API</b>
@@ -112,67 +128,66 @@
         </div>
       </div>
       <div class="flex--white">
-        <h1>
+        <h1 class="article">
           <b>Latest Article</b>
         </h1>
-        <div class="flex--white clare">
-          <img src="./resource/img/revenue.png" alt="by claire robinson" />
-          <br />
-          <p>By Claire Robinson</p>
-          <br />
-          <h2>
-            <b>Receive money in any currency with no fee</b>
-          </h2>
-          <br />
-          <p>
-            The world is getting smaller and we're becoming more moblie. So why
-            should you be forced to only receive money in a single.
-          </p>
-        </div>
-        <div class="flex--white hutton">
-          <img src="./resource/img/bibimbap.png" alt="by wilson hutton" />
-          <br />
-          <p>By Wilson Hutton</p>
-          <br />
-          <h2>
-            <b>Treat yourself without worry about money</b>
-          </h2>
-          <br />
-          <p>
-            The world is getting smaller and we're becoming more moblie. So why
-            should you be forced to only receive money in a single.
-          </p>
-        </div>
-        <div class="flex--white code">
-          <img
-            src="./resource/img/commercial-plane.png"
-            alt="by codeboyfriend"
-          />
-          <br />
-          <p>By Codeboyfriend</p>
-          <br />
-          <h2>
-            <b>Take your Easybank card wherever you go</b>
-          </h2>
-          <br />
-          <p>
-            The world is getting smaller and we're becoming more moblie. So why
-            should you be forced to only receive money in a single.
-          </p>
-        </div>
-        <div class="flex--white mking">
-          <img src="./resource/img/star.png" alt="by mking" />
-          <br />
-          <p>By Mking</p>
-          <br />
-          <h2>
-            <b>Our invite only Beta accounts are now live</b>
-          </h2>
-          <br />
-          <p>
-            The world is getting smaller and we're becoming more moblie. So why
-            should you be forced to only receive money in a single.
-          </p>
+        <div class="container">
+          <div class="container clare">
+            <img
+              src="./resource/img/revenue.png"
+              alt="by claire robinson"
+              class="art"
+            />
+            <p id="someone">By Claire Robinson</p>
+            <h2 id="someone1">
+              <b>Receive money in any currency with no fee</b>
+            </h2>
+            <p id="someone">
+              The world is getting smaller and we're becoming more moblie. So
+              why should you be forced to only receive money in a single.
+            </p>
+          </div>
+          <div class="container hutton">
+            <img
+              src="./resource/img/bibimbap.png"
+              alt="by wilson hutton"
+              class="art"
+            />
+            <p id="someone">By Wilson Hutton</p>
+            <h2 id="someone1">
+              <b>Treat yourself without worry about money</b>
+            </h2>
+            <p id="someone">
+              The world is getting smaller and we're becoming more moblie. So
+              why should you be forced to only receive money in a single.
+            </p>
+          </div>
+          <div class="container code">
+            <img
+              src="./resource/img/commercial-plane.png"
+              alt="by codeboyfriend"
+              class="art"
+            />
+            <p id="someone">By Codeboyfriend</p>
+            <h2 id="someone1">
+              <b>Take your Easybank card wherever you go</b>
+            </h2>
+            <p id="someone">
+              The world is getting smaller and we're becoming more moblie. So
+              why should you be forced to only receive money in a single.
+            </p>
+          </div>
+          <div class="container mking">
+            <img src="./resource/img/star.png" alt="by mking" class="art" />
+            <p id="someone">By Mking</p>
+            <h2 id="someone1">
+              <b>Our invite only Beta accounts are now live</b>
+            </h2>
+            <p id="someone">
+              The world is getting smaller and we're becoming more moblie. So
+              why should you be forced to only receive money in a single.
+            </p>
+          </div>
         </div>
       </div>
     </main>
@@ -181,47 +196,53 @@
       <table>
         <tr>
           <td>
-            <img src="./resource/img/web.png" alt="icon-page" />
+            <img
+              src="./resource/img/web.png"
+              alt="icon-page"
+              class="img-foot"
+            />
           </td>
           <td>
-            <a href="about_us">About Us</a>
+            <a href="about_us" class="foot">About Us</a>
           </td>
           <td>
-            <a href="careers">Careers</a>
+            <a href="careers" class="foot">Careers</a>
           </td>
           <td>
-            <button>Request Invite</button>
+            <button class="btn" type="submit" id="button">Request Invite</button>
           </td>
         </tr>
         <tr>
           <td></td>
-          <td><a href="contact">Contact</a></td>
-          <td><a href="support">Support</a></td>
+          <td><a href="contact" class="foot">Contact</a></td>
+          <td><a href="support" class="foot">Support</a></td>
           <td></td>
         </tr>
         <tr>
           <td>
-            <a href="facebook"
-              ><img src="./resource/img/facebook.png" alt="facebook"
-            /></a>
-            <a href="youtube">
-              <img src="./resource/img/youtube.png" alt="youtube" />
-            </a>
-            <a href="twitter">
-              <img src="./resource/img/twitter.png" alt="twitter" />
-            </a>
-            <a href="printerest">
-              <img src="./resource/img/pinterest.png" alt="printerest" />
-            </a>
-            <a href="instagram">
-              <img src="./resource/img/instagram.png" alt="instagram" />
-            </a>
+            <div class="icon-link">
+              <a class="icon-link dc" href="facebook"
+                ><img src="./resource/img/facebook.png" alt="facebook"
+              /></a>
+              <a class="icon-link dc" href="youtube">
+                <img src="./resource/img/youtube.png" alt="youtube" />
+              </a>
+              <a class="icon-link dc" href="twitter">
+                <img src="./resource/img/twitter.png" alt="twitter" />
+              </a>
+              <a class="icon-link dc" href="printerest">
+                <img src="./resource/img/pinterest.png" alt="printerest" />
+              </a>
+              <a class="icon-link dc" href="instagram">
+                <img src="./resource/img/instagram.png" alt="instagram" />
+              </a>
+            </div>
           </td>
           <td>
-            <a href="blog">Blog</a>
+            <a href="blog" class="foot">Blog</a>
           </td>
           <td>
-            <a href="privacy_policy">Privacy Policy</a>
+            <a href="privacy_policy" class="foot">Privacy Policy</a>
           </td>
           <td>
             <p>
