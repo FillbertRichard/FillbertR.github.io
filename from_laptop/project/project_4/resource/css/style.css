@@ -1,0 +1,94 @@
+* {
+    font-family: 'Source Code Pro', 'Nunito Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #2d5dcc, #4fe0b0);
+}
+
+.container {
+    margin: 15% 25%;
+    background:linear-gradient(60deg, #d957d9, #efd9ca);
+    padding: 40px;
+    width: 40%;
+    display: flex;
+    border: 1px solid #efd9ca;
+    border-radius: 10px;
+}
+
+hr {
+    height: auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito Sans';
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.uppercase {
+    font-size: large;
+    font-weight: 600;
+}
+
+.block-left {
+    width: 100%;
+    text-align: center;
+    color: #644632;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.block-right {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+
+img {
+    width: 30px;
+    font-size: 24px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(20deg, #efd9ca, #d957d9);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px #666;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn span {
+    font-size: 16px;
+}
+
+.facebook {
+    background: #3a589e;
+}
+
+.instagram {
+    background: linear-gradient(80deg, #efd9ca, #d957d9);
+}
+
+.youtube {
+    background: linear-gradient(90deg, red, white)
+}
