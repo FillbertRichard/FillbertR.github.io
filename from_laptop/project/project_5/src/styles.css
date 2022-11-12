@@ -1,0 +1,171 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    padding: 24.5px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+.nav-left {
+    height: 50px;
+}
+
+.nav-right {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+a{
+    margin: 0 40px;
+    text-decoration: none;
+} 
+
+a:hover {
+    transform: scale(1.05);
+    color: beige;
+}
+
+a:active {
+    color: aqua;
+}
+
+main {
+    height: 700px;
+    width: 1200px;
+    background-image: url(./img/img-mission-background.webp);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-up, .container-down {
+    display: flex;
+}
+
+.container-up {
+    justify-content: space-around;
+    width: 1000px;  
+}
+
+.container-down {
+    justify-content: center;
+    
+}
+
+.blitz {
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.rum {
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.donut {
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ave {
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: column; 
+    margin-right: 40px;
+}
+
+.bizarre {
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: column; 
+    margin-right: 40px; 
+}
+
+.location {
+    background-image: url(./img/img-locations-background.webp);
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#none-color {
+    background: none;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: none;
+}
+
+.downtown, .bayside, .oakdale {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: black;
+    opacity: 1;
+}
+
+.downtown {
+    margin-right: 20px;
+}
+
+.bayside {
+    margin: 15px 20px 0 20px;
+}
+
+.oakdale{
+    margin-left: 20px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    margin-left: 20px;
+    text-align: left;
+}
