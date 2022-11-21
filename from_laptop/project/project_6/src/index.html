@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surbey Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Welcome To My Survey</h1>
+    <p id="decription">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <div class="container">
+      <form action="get">
+        <div class="blank">
+          <label for="name">Name</label>
+          <br />
+          <input type="text" placeholder="Enter your name" />
+          <br />
+          <label for="email">Email</label>
+          <br />
+          <input type="email" placeholder="Enter your Email" />
+          <br />
+          <label for="age">Age</label>
+          <br />
+          <input type="number" placeholder="Age" />
+          <br />
+          <label for="option"
+            >Which option best describle your current role?</label
+          >
+          <br />
+          <select name="selects" id="selects">
+            <option value="select current role" selected>
+              Select current role
+            </option>
+            <option value="student">Students</option>
+            <option value="home">Fome</option>
+            <option value="work">Work</option>
+            <option value="Study">Study</option>
+          </select>
+          <br />
+        </div>
+
+        <div class="radio">
+          <label for="recommend"
+            >Would you recommend my Webside to a friend?
+            <br />
+            <table>
+              <tr>
+                <td class="left">
+                  <input type="radio" checked />
+                </td>
+                <td>Definitely</td>
+              </tr>
+              <tr>
+                <td class="left">
+                  <input type="radio" />
+                </td>
+                <td>Maybe</td>
+              </tr>
+              <tr>
+                <td class="left">
+                  <input type="radio" />
+                </td>
+                <td>Not sure</td>
+              </tr>
+            </table>
+          </label>
+        </div>
+
+        <br />
+        <label for="select"
+          >What is your favorite feature of my Webside?
+          <br />
+          <select name="favorite" id="select">
+            <option value="select the option" selected>
+              Select the option
+            </option>
+            <option value="chalenger">Chalenger</option>
+            <option value="projects">Projects</option>
+            <option value="can you feel the heat?">
+              Can you feel the heat in here?
+            </option>
+            <option value="can you feel the heat?">
+              Can you feel the heat in here?
+            </option>
+          </select>
+        </label>
+        <br />
+        <label for="improve"
+          >What would you like to see improved?
+          <span>(Check all that apply)</span>
+          <br />
+          <input type="checkbox" name="front-end" id="improve" />
+
+          <label for="">Front-end Projects</label>
+          <br />
+          <input type="checkbox" name="back-end" id="improve" />
+
+          <label for="">Back-end Projects</label>
+          <br />
+          <input type="checkbox" name="data" id="improve" />
+
+          <label for="data">Data Visualization</label>
+          <br />
+          <input type="checkbox" name="challenges" id="improve" />
+
+          <label for="challenges">Challenges</label>
+          <br />
+          <input type="checkbox" name="source" id="improve" />
+
+          <label for="source">Open Source Community</label>
+          <br />
+          <input type="checkbox" name="gitter" id="improve" />
+
+          <label for="gitter">Gitter</label>
+          <br />
+          <input type="checkbox" name="videos" id="improve" />
+
+          <label for="videos">Videos</label>
+          <br />
+          <input type="checkbox" name="meetups" id="improve" />
+
+          <label for="meetups">Meetups</label>
+          <br />
+          <input type="checkbox" name="wiki" id="improve" />
+
+          <label for="wiki">Wiki</label>
+          <br />
+          <input type="checkbox" name="forum" id="improve" />
+
+          <label for="forum">Forum</label>
+          <br />
+          <input type="checkbox" name="courses" id="improve" />
+
+          <label for="courses">Courses</label>
+          <br />
+        </label>
+        <br />
+        <label for="comments"
+          >Any comments or suggestions?
+          <br />
+          <textarea
+            name=""
+            id=""
+            cols="55"
+            rows="5"
+            placeholder="Enter your comment here . . ."
+          ></textarea>
+        </label>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
