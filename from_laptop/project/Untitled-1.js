@@ -1,2 +1,3 @@
-// Write a message to the console.
-console.log('hello world!');
+var myFirstName = "Dang Duong";
+var myLastName = "Huy";
+console.log(myLastName);
